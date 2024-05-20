@@ -9,3 +9,7 @@ spring:
         password: 123456
 server:
   port: 8080
+#关闭mybatis-x插件的下划线转驼峰
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
